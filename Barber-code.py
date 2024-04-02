@@ -28,6 +28,15 @@ try:
                     PRIMARY KEY (id),
                     FOREIGN KEY (nome) REFERENCES Cliente(nome)
                     );  ''')
+    #ação para criar a tabela Serviços
+    cursor.execute ('''CREATE TABLE IF NOT EXISTS  Serviços (
+                    id INTEGER NOT NULL,
+                    nome TEXT NOT NULL,
+                    serviço INTEGER NOT NULL,
+                    valor REAL NOT NULL,
+                    FOREIGN KEY (id) REFERENCES Barbeiro (id),
+                    FOREIGN KEY (nome) REFERENCES Cliente (nome)
+                    );   ''')
 #aplica as ações e mostra uma mensagem caso funcione    
     conexao.commit
     print ('Banco de Dados criado com sucesso.')
