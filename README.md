@@ -1,6 +1,6 @@
 # Projeto-RAD
 
-Este é um projeto em desenvolvimento para a disciplina de RAD (Rápido Desenvolvimento de Aplicações). O objetivo é criar um sistema simples de gerenciamento para uma barbearia.
+Este é um projeto em desenvolvimento para a disciplina de RAD (Desenvolvimento Rápido de Aplicações). O objetivo é criar um sistema simples de gerenciamento para uma barbearia.
 
 ## Tecnologias Utilizadas
 
